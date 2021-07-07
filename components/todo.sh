@@ -26,7 +26,7 @@ npm install --save-dev  --unsafe-perm node-sass &>>$LOG
 Stat $?
 
 Head "pass the EndPoints in Service File"
-sed -i -e "s/REDIS_ENDPOINT/redis.${DOMAIN}/" systemd.service
+sed -i -e "s/REDIS_ENDPOINT/redis.ksrihari.online/" systemd.service
 Stat $?
 
 Head "Setup the systemd Service"
