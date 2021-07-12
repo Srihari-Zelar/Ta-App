@@ -2,7 +2,7 @@
 
 source components/common.sh
 #Used export instead of service file
-DOMAIN=ksrihari.online
+DOMAIN="ksrihari.online"
 
 OS_PREREQ
 
@@ -37,7 +37,7 @@ npm run build  &>>$LOG
 Stat $?
 
 Head "Replace IP address with Domain"
-sed -i '32 s/127.0.0.1/login.ksrihari.online/g' /var/www/html/app/frontend/config/index.js
+sed -i '32 s/127.0.0.1/login.${DOMAIN}/g' /var/www/html/app/frontend/config/index.js
 sed -i '36 s/127.0.0.1/todo.ksrihari.online/g' /var/www/html/app/frontend/config/index.js
 Stat $?
 
