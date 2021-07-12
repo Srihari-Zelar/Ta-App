@@ -3,7 +3,7 @@
 source components/common.sh
 
 #Used export instead of service file
-DOMAIN=ksrihari.online
+DOMAIN="ksrihari.online"
 
 OS_PREREQ
 
