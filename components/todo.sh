@@ -1,5 +1,4 @@
 #!/bin/bash
-
 source components/common.sh
 
 #Used export instead of service file

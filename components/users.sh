@@ -1,6 +1,7 @@
 #!/bin/bash
-
 source components/common.sh
+
+DOMAIN="ksrihari.online"
 
 OS_PREREQ
 
